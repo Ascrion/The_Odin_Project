@@ -1,0 +1,82 @@
+/* Main body */
+button {
+    font-size: 1.75rem;
+}
+body {
+    min-width: 22rem;
+    display: flex;
+    justify-content: center;
+}
+/* Main calci structure */
+.calci_box {
+    max-width: 22rem;
+    border: 6px grey solid;
+    margin: 8rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+/* Display */
+.display {
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    border: 6px black solid;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 4rem;
+}
+
+/*Input Grid */
+.input-grid {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: 2px solid black;
+}
+
+/* Operands */
+.operands {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.rows {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.rows button {
+    width: 33%;
+    height: 4rem;
+    background-color: white;
+    color: teal;
+    border-radius: 4px;
+}
+#num0 {
+    width: 66%;
+}
+
+/* Operators */
+.operators {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.row button {
+    width: 50%;
+    height: 4rem;
+    background-color: white;
+    color: orange;
+    border-radius: 4px;
+}
+#multiply {
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
